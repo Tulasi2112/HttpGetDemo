@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GETDemo.MainPage">
+
+    <StackLayout>
+
+        <Button Text="This is an API call" FontSize="Large"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand" Clicked="Button_Clicked">
+
+
+        </Button>
+        <Label x:Name="mynamelabel" HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand" FontSize="Title" TextColor="Chocolate">
+
+
+        </Label>
+
+    </StackLayout>
+
+</ContentPage>
+
